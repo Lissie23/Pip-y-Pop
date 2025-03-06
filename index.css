@@ -1,0 +1,25 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0%;
+    }
+    
+    .left{
+        flex: 1;
+        background-image: url('https://i.pinimg.com/736x/b0/0e/f6/b00ef63e4a3c0b3bd923ee7e0c7ce6da.jpg');
+        background-size: auto 100vh;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-color:rgb(235, 234, 233);
+    }
+    
+    .right{
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(235, 234, 233);
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
