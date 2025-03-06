@@ -5,68 +5,71 @@ body{
     margin: 0%;
     }
     
-    .left{
-        flex: 1;
-        background-image: url('https://i.pinimg.com/736x/b0/0e/f6/b00ef63e4a3c0b3bd923ee7e0c7ce6da.jpg');
-        background-size: auto 100vh;
-        background-position: left bottom;
-        background-repeat: no-repeat;
-        background-color:rgb(235, 234, 233);
-    }
+.left{
+    flex: 1;
+    background-image: url('https://i.pinimg.com/736x/b0/0e/f6/b00ef63e4a3c0b3bd923ee7e0c7ce6da.jpg');
+    background-size: auto 100vh;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-color:rgb(235, 234, 233);
+}
     
-    .right{
-        flex: 1;
-        justify-content: center;
-        align-items: center;
-        background-color:rgb(235, 234, 233);
-        flex-direction: column;
-        display: flex;
-        text-align: center;
-    }
+.right{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(235, 234, 233);
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
 
-        
-    #song_form{
-        background: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        width: 80%;
-        max-width:400px ;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-    }
-    
-    label{
-        display: block;
-        margin: 10px 0 5px; 
-        text-align: left;
-    }
-    
-    input{
-        width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    
-    button{
-        background: white;
-        font-size: 16px;
-        border: none;
-        padding: 10px;
-        width: 100%;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: background 0.3s ease;
-    }
-    
-    button:hover{
-        background: #8f5b74;
-    }
-    
-    #play_list{
-        list-style-type: square;
-    }
+#song_form{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    max-width:400px ;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+label{
+    display: block;
+    margin: 10px 0 5px; 
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submitt:hover{
+    background: #ee94d0;
+}
+
+#play_list{
+    list-style-type: square;
+}
+
+.delete-btn:hover{
+background: rgb(204, 68, 68);
+}
