@@ -23,3 +23,50 @@ body{
         display: flex;
         text-align: center;
     }
+
+        
+    #song_form{
+        background: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 80%;
+        max-width:400px ;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    label{
+        display: block;
+        margin: 10px 0 5px; 
+        text-align: left;
+    }
+    
+    input{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    button{
+        background: white;
+        font-size: 16px;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+    
+    button:hover{
+        background: #8f5b74;
+    }
+    
+    #play_list{
+        list-style-type: square;
+    }
